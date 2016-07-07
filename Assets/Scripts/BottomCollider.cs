@@ -3,11 +3,14 @@ using System.Collections;
 
 public class BottomCollider : MonoBehaviour {
 
-	public LevelManager levelManager;
-		
+	private LevelManager levelManager;
+
+	void Start () {
+		levelManager = GameObject.FindObjectOfType<LevelManager> ();
+	}
+
 	void OnTriggerEnter2D(Collider2D collider) {
-		Debug.Log ("Triggered by" + collider);
-		levelManager.LoadLevel ("Win");
+		levelManager.LoadLevel ("Lose");
 	}
 		
 }

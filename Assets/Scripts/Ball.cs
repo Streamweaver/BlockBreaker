@@ -3,14 +3,15 @@ using System.Collections;
 
 public class Ball : MonoBehaviour {
 
-	public Paddle paddle;
-
+	private Paddle paddle;
+	private AudioSource audio;
 	private Vector3 paddleToBallVector;
-
 	private bool launched;
 
 	// Use this for initialization
 	void Start () {
+		audio = GetComponent<AudioSource> ();
+		paddle = GameObject.FindObjectOfType<Paddle> ();
 		paddleToBallVector = this.transform.position - paddle.transform.position;
 		launched = false;
 	}
@@ -25,5 +26,13 @@ public class Ball : MonoBehaviour {
 			}
 		}
 
+	}
+
+	void OnCollisionEnter2D (Collision2D col) {
+		Vector2 tweak = new Vector2 (Random.Range (0f, 0.2f), Random.Range (0f, 0.2f));
+		if (launched) {
+			this.GetComponent<Rigidbody2D> ().velocity += tweak;
+			audio.Play ();	
+		}
 	}
 }

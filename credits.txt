@@ -1,0 +1,11 @@
+Game Creation
+Scott Turnbull <streamweaver@gmail.com>
+
+Project grown from Udemy Course
+"Learn to Code by Making Games - The Complete Unity" (https://www.udemy.com/unitycourse/learn/v4/overview)
+
+Graphics Assets via Kenney Game Assets (http://www.kenney.nl/assets)
+
+Background Images via UnSplash
+Sai Kiran Anagani (https://unsplash.com/photos/5Ntkpxqt54Y)
+Roman Mager (https://unsplash.com/photos/5mZ_M06Fc9g)
