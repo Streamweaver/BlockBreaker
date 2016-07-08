@@ -7,6 +7,8 @@ public class Paddle : MonoBehaviour {
 
 	private Vector3 paddlePos;
 	private Ball ball;
+	private float xMin = 0.5f;
+	private float xMax = 15.5f;
 
 	// Use this for initialization
 	void Start () {
@@ -24,13 +26,13 @@ public class Paddle : MonoBehaviour {
 
 	void MoveWithMouse() {
 		float mousePosInBlocks = Input.mousePosition.x / Screen.width * 16;
-		paddlePos.x = Mathf.Clamp (mousePosInBlocks, 0.5f, 15.5f);
+		paddlePos.x = Mathf.Clamp (mousePosInBlocks, xMin, xMax);
 		this.transform.position = paddlePos;
 	}
 
 	void MoveWithAutoPlay () {
 		ball = GameObject.FindObjectOfType<Ball> ();
-		paddlePos.x = Mathf.Clamp (ball.transform.position.x, 0.5f, 15.5f);
+		paddlePos.x = Mathf.Clamp (ball.transform.position.x, xMin, xMax);
 		this.transform.position = paddlePos;
 	}
 }

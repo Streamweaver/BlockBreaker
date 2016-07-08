@@ -10,8 +10,8 @@ GameObject:
   - 4: {fileID: 453456}
   - 212: {fileID: 21282432}
   - 50: {fileID: 5049876}
-  - 68: {fileID: 6809208}
   - 114: {fileID: 11477794}
+  - 60: {fileID: 6099134}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -47,10 +47,10 @@ Rigidbody2D:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
---- !u!68 &6809208
-EdgeCollider2D:
+--- !u!60 &6099134
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -62,8 +62,13 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
-  - {x: -0.52, y: 0}
-  - {x: 0.52, y: 0}
+    m_Paths:
+    - - {x: -0.42751646, y: 0.113963366}
+      - {x: -0.5001712, y: 0.03366375}
+      - {x: -0.5, y: -0.11538462}
+      - {x: 0.5003338, y: -0.113963425}
+      - {x: 0.49857807, y: 0.048479795}
+      - {x: 0.40477753, y: 0.11538446}
 --- !u!114 &11477794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -75,6 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e339147af30d345bb985bcad1df9c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoPlay: 0
 --- !u!212 &21282432
 SpriteRenderer:
   m_ObjectHideFlags: 1

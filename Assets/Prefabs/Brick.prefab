@@ -66,6 +66,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!212 &21228848
 SpriteRenderer:
   m_ObjectHideFlags: 1

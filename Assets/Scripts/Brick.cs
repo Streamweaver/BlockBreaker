@@ -8,6 +8,7 @@ public class Brick : MonoBehaviour {
 	public static int brickCount = 0;
 	public AudioClip breakSound;
 	public AudioClip weakSound;
+	public GameObject smoke;
 
 	private int timesHit;
 	private LevelManager levelManager;
@@ -41,8 +42,9 @@ public class Brick : MonoBehaviour {
 		timesHit++;
 		if (Health() < 1) {
 			brickCount--;
+			AudioSource.PlayClipAtPoint (breakSound, transform.position, 1f);
 			levelManager.BrickDestroyed ();
-			AudioSource.PlayClipAtPoint (breakSound, transform.position);
+			Instantiate (smoke, transform.position, Quaternion.identity);
 			Destroy (gameObject);
 		} else {
 			AudioSource.PlayClipAtPoint (weakSound, transform.position);
@@ -58,6 +60,8 @@ public class Brick : MonoBehaviour {
 		int spriteIndex = Health () - 1;
 		if (healthSprites[spriteIndex]) {
 			GetComponent<SpriteRenderer> ().sprite = healthSprites[spriteIndex];
+		} else {
+			Debug.LogError ("No sprite exits at index " + spriteIndex);
 		}
 
 	}

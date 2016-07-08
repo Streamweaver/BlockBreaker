@@ -1337,6 +1337,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11401340
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1358,6 +1359,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11402128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1379,6 +1381,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11406234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1400,6 +1403,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11413544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1421,6 +1425,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11417264
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1442,6 +1447,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11421028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1463,6 +1469,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11421968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1484,6 +1491,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11423070
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1505,6 +1513,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11423348
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1526,6 +1535,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11426310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1547,6 +1557,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11426418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1568,6 +1579,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11429460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1589,6 +1601,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11429910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1610,6 +1623,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11430238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1631,6 +1645,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11436656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1652,6 +1667,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11441548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1673,6 +1689,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11453986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1694,6 +1711,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11454214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1715,6 +1733,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11458662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1736,6 +1755,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11462174
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1757,6 +1777,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11468662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1778,6 +1799,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11470124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1799,6 +1821,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11475572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1820,6 +1843,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11476806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1841,6 +1865,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11486332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1862,6 +1887,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11493124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1883,6 +1909,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!114 &11497114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1904,6 +1931,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 1d479f69eeab43c4fbf30b360e751323, type: 3}
   breakSound: {fileID: 8300000, guid: 70daf392c99cda84a860fd34bf4e11ed, type: 3}
   weakSound: {fileID: 8300000, guid: 08bb5cccb4ba857478fe5bf34d1b7b44, type: 3}
+  smoke: {fileID: 162222, guid: e9fcdc05e0400884bbbe6a32d67321df, type: 2}
 --- !u!212 &21201782
 SpriteRenderer:
   m_ObjectHideFlags: 1

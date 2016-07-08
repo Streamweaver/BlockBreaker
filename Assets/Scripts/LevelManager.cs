@@ -28,11 +28,14 @@ public class LevelManager : MonoBehaviour {
 
 	public void LoadLevel(string name){
 		Debug.Log ("New Level load: " + name);
+		Brick.brickCount = 0;
 		SceneManager.LoadScene (name);
 	}
 
 	public void LoadNextLevel() {
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
+		int nextIndex = SceneManager.GetActiveScene ().buildIndex + 1;
+		Brick.brickCount = 0;
+		SceneManager.LoadScene (nextIndex);
 	}
 
 	public void QuitRequest(){
